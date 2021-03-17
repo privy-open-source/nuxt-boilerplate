@@ -1,6 +1,6 @@
 {
   "name": "@privyid/nuxt-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Start your PrivyID Nuxt.js Projects in seconds.",
   "bin": "lib/cli.js",
   "files": [
