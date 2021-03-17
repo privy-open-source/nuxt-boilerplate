@@ -1,6 +1,6 @@
-# @dcindonesia/nuxt-boilerplate
+# @privyid/nuxt-boilerplate
 
-Create DCI's Nuxt.js Boilerplate in seconds.
+Start your PrivyID Nuxt.js Projects in seconds.
 
 # Requirements
 
