@@ -18,13 +18,14 @@
   },
   "husky": {
     "hooks": {
+      "commit-msg": "yarn commitlint --edit $1",
       "pre-commit": "yarn lint"
     }
   },
   "dependencies": {
-    "@dcindonesia/nuxt-oauth": "^1.1.1",
     "@nuxtjs/axios": "^5.13.1",
     "@nuxtjs/sentry": "^5.0.1",
+    "@privyid/nuxt-oauth2": "^1.0.1",
     "core-js": "^3.8.3",
     "detect-browser": "^5.2.0",
     "nuxt": "^2.15.0",
@@ -34,6 +35,8 @@
     "vuex-easy-access": "^3.1.8"
   },
   "devDependencies": {
+    "@commitlint/cli": "^12.0.1",
+    "@commitlint/config-conventional": "^12.0.1",
     "@nuxtjs/vuetify": "^1.11.3",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.20.0",
