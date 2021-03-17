@@ -17,5 +17,10 @@
     "git-clone": "^0.1.0",
     "rimraf": "^3.0.2",
     "sao": "^1.7.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.0.1",
+    "@commitlint/config-conventional": "^12.0.1",
+    "husky": "^5.1.3"
   }
 }
