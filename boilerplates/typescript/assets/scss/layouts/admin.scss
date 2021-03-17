@@ -1,0 +1,25 @@
+.dashboard {
+  background-color: #f6f6f6 !important;
+
+  @include element('breadcrumbs') {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 42px;
+    box-shadow: inset 0 -1px 0 0 #e6e6e6;
+    width: 100%;
+    background: #fff;
+    align-content: center;
+
+    .v-breadcrumbs {
+      @include element('item') {
+        text-decoration: none;
+        color: #747474;
+
+        @include modifier('disabled') {
+          color: #ff7575 !important;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.landing {
+  background-color: #f6f6f6 !important;
+
+  @include element('full') {
+    height: 100vh;
+  }
+}

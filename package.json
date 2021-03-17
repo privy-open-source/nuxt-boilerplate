@@ -1,0 +1,21 @@
+{
+  "name": "@dcindonesia/nuxt-boilerplate",
+  "version": "1.0.0",
+  "description": "Start your PrivyID Nuxt.js Projects in seconds.",
+  "bin": "lib/cli.js",
+  "files": [
+    "lib"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "agallio <agalliosamai@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cac": "^6.7.2",
+    "chalk": "^4.1.0",
+    "git-clone": "^0.1.0",
+    "rimraf": "^3.0.2",
+    "sao": "^1.7.1"
+  }
+}

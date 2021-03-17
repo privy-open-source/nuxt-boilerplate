@@ -1,0 +1,39 @@
+.error {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+  @include element('content') {
+    width: 339px;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+  @include element('status') {
+    text-align: center;
+    margin: 12px 0px;
+    letter-spacing: 4px;
+  }
+
+  @include element('description') {
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 200 !important;
+  }
+
+  @include element('helper') {
+    margin-top: 1em;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 600 !important;
+  }
+}
