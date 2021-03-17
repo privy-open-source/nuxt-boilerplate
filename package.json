@@ -1,5 +1,5 @@
 {
-  "name": "@dcindonesia/nuxt-boilerplate",
+  "name": "@privyid/nuxt-boilerplate",
   "version": "1.0.0",
   "description": "Start your PrivyID Nuxt.js Projects in seconds.",
   "bin": "lib/cli.js",
