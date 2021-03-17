@@ -1,6 +1,6 @@
-# [DCI] JavaScript
+# JavaScript
 
-DCI Nuxt JavaScript Boilerplate.
+PrivyID Nuxt JavaScript Boilerplate.
 
 ### Prerequisites
 

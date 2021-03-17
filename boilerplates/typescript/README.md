@@ -1,6 +1,6 @@
-# [DCI] TypeScript
+# TypeScript
 
-DCI Nuxt TypeScript Boilerplate.
+PrivyID Nuxt TypeScript Boilerplate.
 
 ### Prerequisites
 
