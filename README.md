@@ -10,7 +10,7 @@ Start your PrivyID Nuxt.js Projects in seconds.
 # List of Boilerplates
 
 - [x] JavaScript
-- [x] JavaScript (@adenvt signature)
+- [x] JavaScript ([@adenvt](https://github.com/adenvt) signature)
 - [x] TypeScript
 
 # How To Use
