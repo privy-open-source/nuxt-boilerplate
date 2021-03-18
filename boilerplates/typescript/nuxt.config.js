@@ -1,7 +1,7 @@
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: '@dcindonesia/typescript',
+    title: '@privyid/typescript',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -41,8 +41,8 @@ export default {
     '@nuxtjs/axios',
     // https://www.npmjs.com/package/@nuxtjs/sentry
     '@nuxtjs/sentry',
-    // https://www.npmjs.com/package/@dcindonesia/nuxt-oauth
-    '@dcindonesia/nuxt-oauth',
+    // https://www.npmjs.com/package/@privyid/nuxt-oauth2
+    '@privyid/nuxt-oauth2',
     // https://github.com/avil13/vue-sweetalert2
     'vue-sweetalert2/nuxt',
   ],
@@ -61,7 +61,7 @@ export default {
     },
   },
 
-  // OAuth module configuration (https://www.npmjs.com/package/@dcindonesia/nuxt-oauth)
+  // OAuth module configuration (https://www.npmjs.com/package/@privyid/nuxt-oauth2)
   oauth: {
     sessionName: 'mySession',
     authPath: '/admin',

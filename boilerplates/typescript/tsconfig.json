@@ -19,7 +19,7 @@
       "@types/node",
       "@nuxt/types",
       "@nuxtjs/axios",
-      "@dcindonesia/nuxt-oauth"
+      "@privyid/nuxt-oauth2"
     ]
   },
   "exclude": ["node_modules", ".nuxt", "dist"]

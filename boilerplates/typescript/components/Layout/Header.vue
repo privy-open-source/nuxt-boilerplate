@@ -103,6 +103,12 @@ export default Vue.extend({
       return this.$store.get('session/user')
     },
   },
+  methods: {
+    handleLogout() {
+      this.$logout('/admin')
+      window.location.replace(this.$config.logoutUrl)
+    },
+  },
 })
 </script>
 

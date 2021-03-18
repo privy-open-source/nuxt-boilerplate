@@ -86,7 +86,7 @@ import { RootMenu } from '~/types'
 
 export default Vue.extend({
   name: 'Sidebar',
-  props: { logoutButtton: { type: String, default: 'bottom' } },
+  props: { logoutButton: { type: String, default: 'bottom' } },
   computed: {
     drawer(): boolean {
       return this.$store.get('drawer')

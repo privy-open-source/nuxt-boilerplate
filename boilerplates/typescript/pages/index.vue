@@ -4,7 +4,7 @@
       <v-col cols="12" sm="8" md="6">
         <v-card>
           <v-card-title class="headline">
-            @dcindonesia/nuxt-boilerplate
+            @privyid/nuxt-boilerplate
           </v-card-title>
           <v-card-text>
             <p>
