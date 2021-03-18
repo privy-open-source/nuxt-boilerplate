@@ -81,7 +81,7 @@ import { filterMenu } from '@/utils/menu'
 
 export default {
   name: 'Sidebar',
-  props: { logoutButtton: { type: String, default: 'bottom' } },
+  props: { logoutButton: { type: String, default: 'bottom' } },
   computed: {
     drawer() {
       return this.$store.get('drawer')

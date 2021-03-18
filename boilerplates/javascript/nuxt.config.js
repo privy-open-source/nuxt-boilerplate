@@ -40,8 +40,8 @@ export default {
     '@nuxtjs/axios',
     // https://www.npmjs.com/package/@nuxtjs/sentry
     '@nuxtjs/sentry',
-    // https://www.npmjs.com/package/@dcindonesia/nuxt-oauth
-    '@dcindonesia/nuxt-oauth',
+    // https://www.npmjs.com/package/@privyid/nuxt-oauth2
+    '@privyid/nuxt-oauth2',
     // https://github.com/avil13/vue-sweetalert2
     'vue-sweetalert2/nuxt',
   ],
@@ -60,7 +60,7 @@ export default {
     },
   },
 
-  // OAuth module configuration (https://www.npmjs.com/package/@dcindonesia/nuxt-oauth)
+  // OAuth module configuration (https://www.npmjs.com/package/@privyid/nuxt-oauth2)
   oauth: {
     sessionName: 'mySession',
     authPath: '/admin',
