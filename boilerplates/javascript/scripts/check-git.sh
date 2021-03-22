@@ -4,4 +4,5 @@ else
   echo "Git initializing"
   git init
   yarn husky install
+  npx husky add .husky/pre-commit 'yarn lint'
 fi

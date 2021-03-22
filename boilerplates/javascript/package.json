@@ -17,12 +17,6 @@
     "npm": "please-use-yarn",
     "yarn": ">= 1.22.4"
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "yarn commitlint --edit $1",
-      "pre-commit": "yarn lint"
-    }
-  },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.1",
     "@nuxtjs/sentry": "^5.0.2",
