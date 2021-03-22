@@ -16,8 +16,11 @@ Start your PrivyID Nuxt.js Projects in seconds.
 # How To Use
 
 ```bash
-# install it via npx
+# get it via npx
 $ npx @privyid/nuxt-boilerplate [project_name]
+
+# install
+$ cd [project_name] && yarn
 ```
 
 Select one of the boilerplate & enter. It will generate the boilerplate automatically. Enjoy!
